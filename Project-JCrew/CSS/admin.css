@@ -1,0 +1,13 @@
+#name,
+      #price,
+      #img {
+        width: 20%;
+        height: 30px;
+      }
+      #submit {
+        width: 10%;
+        height: 40px;
+        background-color: lightcoral;
+        color: white;
+        border: none;
+      }

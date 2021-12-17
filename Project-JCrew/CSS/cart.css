@@ -1,0 +1,38 @@
+#prod-container {
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3%;
+    margin-left: 2%;
+  }
+
+  #prod-container > div {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  #prod-container > div img {
+    width: 100%;
+    height: 70%;
+  }
+  #prod-container button {
+    width: 45%;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 0;
+    cursor: pointer;
+  }
+  #remove{
+    float: right;
+  }
+  #goToPay{
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 8%;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+  }
